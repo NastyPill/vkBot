@@ -16,6 +16,7 @@ public class NotifierThread extends Thread {
     public NotifierThread(MessageService messageService, Metric... metrics) {
         this.messageService = messageService;
         this.metricsList = new ArrayList(Arrays.asList(metrics));
+        this.setDaemon(true);
     }
 
     public NotifierThread(MessageService messageService, List<Metric> metricsList) {

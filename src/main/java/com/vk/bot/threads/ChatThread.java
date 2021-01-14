@@ -16,6 +16,7 @@ public class ChatThread extends Thread {
         this.messageService = messageService;
         this.threadsMetric = threadsMetric;
         this.messagesSentMetric = messagesSentMetric;
+        this.setDaemon(true);
     }
 
     @Override

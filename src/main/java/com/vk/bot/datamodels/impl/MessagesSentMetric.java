@@ -8,7 +8,7 @@ import java.util.TreeMap;
 public class MessagesSentMetric implements Metric {
 
     private volatile Long total;
-    private volatile Map<Long, Long> sentForEveryThread;
+    private Map<Long, Long> sentForEveryThread;
     private Long start;
 
     public MessagesSentMetric() {

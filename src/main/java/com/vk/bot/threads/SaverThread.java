@@ -12,6 +12,7 @@ public class SaverThread extends Thread {
     public SaverThread(String path, Metric metric) {
         this.path = path;
         this.metric = metric;
+        this.setDaemon(true);
     }
 
     @Override

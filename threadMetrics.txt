@@ -1,2 +1,2 @@
 Alive: 6
-Started: 7
+Started: 6

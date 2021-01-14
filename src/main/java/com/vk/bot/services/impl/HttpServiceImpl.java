@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class HttpServiceImpl implements HttpService {
 
-    private static final String KEY = "7fc9c54786ec1535ab1e17a7b76b9781d166dfd56ec68f69d17cc84968149b080779294db87610ee720d8";
+    private static final String KEY = "3cf6030078118d0c2316b979dcf9dadaef1a9d4d790e10a34b1f5d039041e24a2d0b01261aac93f7fb4de";
     private static final String VERSION = "5.126";
     private static final String BASIC_URL = "https://api.vk.com/method/";
 

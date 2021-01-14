@@ -1,9 +1,8 @@
-total: 4895
-For id: 2000000002 messages sent: 757
-For id: 2000000003 messages sent: 759
-For id: 2000000004 messages sent: 760
-For id: 2000000005 messages sent: 760
-For id: 2000000006 messages sent: 756
-For id: 2000000007 messages sent: 348
-For id: 2000000008 messages sent: 755
-Average per sec: 5.933333333333334 for 7 threads
+total: 22
+For id: 2000000002 messages sent: 4
+For id: 2000000003 messages sent: 4
+For id: 2000000004 messages sent: 4
+For id: 2000000005 messages sent: 4
+For id: 2000000006 messages sent: 3
+For id: 2000000008 messages sent: 3
+Average per sec: 4.4 for 6 threads
